@@ -1,0 +1,19 @@
+{
+  "name": "sanber-kasir-aja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "mocha,chai,supertest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "supertest": "^6.3.3"
+  }
+}
