@@ -21,6 +21,7 @@ describe("PUT /products", function(){
                         });
         
         expect(await response.statusCode).to.eql(200)
+        expect(await response.body.data.product.name).to.eql("Butter Croissant")
         console.log(response);
     })
 })

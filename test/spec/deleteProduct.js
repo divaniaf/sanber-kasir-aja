@@ -13,6 +13,7 @@ describe("DELETE /products", function(){
                         });
         
         expect(response.status).to.eql(200)
+        expect(await response.body.message).to.eql("Product berhasil dihapus")
         console.log(response);
     })
 })
